@@ -28,12 +28,12 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  "expo-notifications": {
-    enabled: true,
-    // resolve: "./src/plugins/expo-notifications",
-    config: {
-      testToken: "ExponentPushToken[WP9WjkMh9ExLp8MwNqEb9R]",
-      // customFieldName: "expoPushToken",
-    },
-  },
+  // "expo-notifications": {
+  //   enabled: true,
+  //   // resolve: "./src/plugins/expo-notifications",
+  //   config: {
+  //     testToken: "ExponentPushToken[WP9WjkMh9ExLp8MwNqEb9R]",
+  //     // customFieldName: "expoPushToken",
+  //   },
+  // },
 });
