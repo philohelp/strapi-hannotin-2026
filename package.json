@@ -14,7 +14,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@strapi/icons": "^0.0.1-alpha.4",
     "@strapi/plugin-graphql": "4.24.4",
     "@strapi/plugin-i18n": "4.24.4",
