@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autonotifications",
+  "info": {
+    "singularName": "autonotification",
+    "pluralName": "autonotifications",
+    "displayName": "Notifications automatiques",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "nuxeoAffId": {
+      "type": "string"
+    },
+    "receipts": {
+      "type": "json"
+    },
+    "errors": {
+      "type": "json"
+    }
+  }
+}

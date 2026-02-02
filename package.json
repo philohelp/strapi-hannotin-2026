@@ -1,0 +1,40 @@
+{
+  "name": "strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Le CMS du site institutionnel Hannotin-Avocats",
+  "license": "MIT",
+  "author": {
+    "name": "ThPo"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@strapi/icons": "^0.0.1-alpha.4",
+    "@strapi/plugin-graphql": "4.24.4",
+    "@strapi/plugin-i18n": "4.24.4",
+    "@strapi/plugin-users-permissions": "4.24.4",
+    "@strapi/provider-upload-cloudinary": "^4.24.4",
+    "@strapi/strapi": "4.24.4",
+    "@surunnuage/strapi-plugin-expo-notifications": "2.0.5",
+    "better-sqlite3": "^9.6.0",
+    "pg": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9.8.1"
+  },
+  "strapi": {
+    "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
+  }
+}
